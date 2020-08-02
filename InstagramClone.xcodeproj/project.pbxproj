@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA397EE424D69AAA00E39A13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA397EE324D69AAA00E39A13 /* Assets.xcassets */; };
+		DA397EE624D6A0A900E39A13 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA397EE524D6A0A900E39A13 /* SignUpVC.swift */; };
 		DA4F886A24D56E3300E70D77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4F886924D56E3300E70D77 /* AppDelegate.swift */; };
 		DA4F886C24D56E3300E70D77 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4F886B24D56E3300E70D77 /* SceneDelegate.swift */; };
-		DA4F887324D56E3400E70D77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA4F887224D56E3400E70D77 /* Assets.xcassets */; };
 		DA4F887624D56E3400E70D77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA4F887424D56E3400E70D77 /* LaunchScreen.storyboard */; };
 		DA4F888324D56E7D00E70D77 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4F888224D56E7D00E70D77 /* Extension.swift */; };
 		DA4F888524D56E9300E70D77 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4F888424D56E9300E70D77 /* LoginVC.swift */; };
@@ -21,10 +22,11 @@
 /* Begin PBXFileReference section */
 		7930A1E3EEC6BFFB32A96D54 /* Pods-InstagramClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagramClone.debug.xcconfig"; path = "Target Support Files/Pods-InstagramClone/Pods-InstagramClone.debug.xcconfig"; sourceTree = "<group>"; };
 		AD9E350AC978E76BC4AB6157 /* Pods_InstagramClone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstagramClone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA397EE324D69AAA00E39A13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA397EE524D6A0A900E39A13 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
 		DA4F886624D56E3300E70D77 /* InstagramClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA4F886924D56E3300E70D77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA4F886B24D56E3300E70D77 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DA4F887224D56E3400E70D77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA4F887524D56E3400E70D77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA4F887724D56E3400E70D77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA4F888224D56E7D00E70D77 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
@@ -82,7 +84,7 @@
 				DA4F886924D56E3300E70D77 /* AppDelegate.swift */,
 				DA4F888824D5712000E70D77 /* Main.storyboard */,
 				DA4F886B24D56E3300E70D77 /* SceneDelegate.swift */,
-				DA4F887224D56E3400E70D77 /* Assets.xcassets */,
+				DA397EE324D69AAA00E39A13 /* Assets.xcassets */,
 				DA4F887424D56E3400E70D77 /* LaunchScreen.storyboard */,
 				DA4F888624D5700400E70D77 /* GoogleService-Info.plist */,
 				DA4F887724D56E3400E70D77 /* Info.plist */,
@@ -108,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				DA4F888424D56E9300E70D77 /* LoginVC.swift */,
+				DA397EE524D6A0A900E39A13 /* SignUpVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -190,9 +193,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA4F887624D56E3400E70D77 /* LaunchScreen.storyboard in Resources */,
-				DA4F887324D56E3400E70D77 /* Assets.xcassets in Resources */,
 				DA4F888724D5700500E70D77 /* GoogleService-Info.plist in Resources */,
 				DA4F888924D5712000E70D77 /* Main.storyboard in Resources */,
+				DA397EE424D69AAA00E39A13 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +251,7 @@
 				DA4F886A24D56E3300E70D77 /* AppDelegate.swift in Sources */,
 				DA4F886C24D56E3300E70D77 /* SceneDelegate.swift in Sources */,
 				DA4F888524D56E9300E70D77 /* LoginVC.swift in Sources */,
+				DA397EE624D6A0A900E39A13 /* SignUpVC.swift in Sources */,
 				DA4F888324D56E7D00E70D77 /* Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
