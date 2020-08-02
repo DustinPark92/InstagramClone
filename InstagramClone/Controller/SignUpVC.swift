@@ -85,7 +85,9 @@ class SignUpVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        print(123)
+        print(123)
+        print(123)
         view.backgroundColor = .white
         
         view.addSubview(plusPhotoButton)
